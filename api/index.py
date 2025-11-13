@@ -1,4 +1,5 @@
-from app import app as application
+# api/index.py
+from app import app
 
-# Vercel akan mencari variabel bernama 'application'
-# jadi jangan ubah namanya
+# Vercel requires this to be named 'app'
+app = app
